@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="14.0" prefHeight="200.0" prefWidth="748.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="HOME">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Icon content="HELP_OUTLINE" layoutX="247.0" layoutY="69.0" />
+                        <ImageView fitHeight="371.0" fitWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <image>
+                              <Image url="@../../../../../Downloads/bridge_sun_beams_light_morning_river_park_fairy_tale_48376_1366x768.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="200.0" fitWidth="260.0" layoutX="190.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Desktop/Acenet/images/collaboration.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="235.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACENET">
+                           <font>
+                              <Font name="Goudy Old Style Bold" size="28.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#fcfafa" layoutX="431.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Made by MIcrolab.">
+                           <font>
+                              <Font name="Goudy Old Style Bold" size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="REGISTRATION">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="372.0" fitWidth="600.0" layoutX="75.0" layoutY="129.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <image>
+                              <Image url="@../../../../../Downloads/wall_bricks_texture_116436_1366x768.jpg" />
+                           </image>
+                           <effect>
+                              <GaussianBlur radius="4.75" />
+                           </effect>
+                        </ImageView>
+                        <Text fontSmoothingType="LCD" layoutX="21.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REGISTER MEMBER">
+                           <font>
+                              <Font name="Kristen ITC" size="16.0" />
+                           </font>
+                        </Text>
+                        <TextField layoutX="21.0" layoutY="71.0" prefHeight="25.0" prefWidth="212.0" promptText="First Name" />
+                        <TextField layoutX="21.0" layoutY="128.0" prefHeight="25.0" prefWidth="212.0" promptText="Last Name" />
+                        <TextField layoutX="21.0" layoutY="186.0" prefHeight="25.0" prefWidth="212.0" promptText="Email" />
+                        <TextField layoutX="21.0" layoutY="253.0" prefHeight="25.0" prefWidth="212.0" promptText="Phone Number" />
+                        <Line endX="68.0" endY="16.0" layoutX="187.0" layoutY="14.0" startX="17.0" startY="16.0" />
+                        <Line endY="240.0" layoutX="256.0" layoutY="84.0" startX="-2.0" startY="-54.0" />
+                        <Line endX="123.0" layoutX="132.0" layoutY="325.0" startX="-119.0" />
+                        <Line endX="-4.0" endY="-129.0" layoutX="14.0" layoutY="161.0" startX="-4.0" startY="164.0" />
+                        <Button layoutX="367.0" layoutY="46.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="131.0" text="Scan Fingerprint" textFill="#171717">
+                           <font>
+                              <Font name="Goudy Old Style" size="14.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="389.0" layoutY="165.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="81.0" text="Save">
+                           <font>
+                              <Font name="Goudy Old Style" size="14.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="ATTENDANCE">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="372.0" fitWidth="600.0" layoutX="10.0" layoutY="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <image>
+                              <Image url="@../../../../../Downloads/race_competition_dog_elephant_sand_lane_sky_cloud_fangs_house_building_glass_lamps_grass_fence_73746_1366x768.jpg" />
+                           </image>
+                           <effect>
+                              <GaussianBlur radius="6.25" />
+                           </effect>
+                        </ImageView>
+                        <Text layoutX="223.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Verify Member">
+                           <font>
+                              <Font name="Goudy Old Style" size="21.0" />
+                           </font>
+                        </Text>
+                        <Line endX="138.0" endY="9.0" layoutX="293.0" layoutY="175.0" startX="138.0" startY="-115.0" />
+                        <Line endX="126.0" layoutX="303.0" layoutY="185.0" startX="-135.5" />
+                        <Line endX="-146.0" endY="-130.0" layoutX="313.0" layoutY="195.0" startX="-146.0" startY="-10.5" />
+                        <Line endX="-154.0" endY="-142.0" layoutX="323.0" layoutY="205.0" startX="-111.0" startY="-142.0" />
+                        <Line endX="98.0" endY="-158.0" layoutX="333.0" layoutY="215.0" startX="32.0" startY="-158.0" />
+                        <Button layoutX="228.0" layoutY="96.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="122.0" text="SCAN" AnchorPane.topAnchor="96.0">
+                           <font>
+                              <Font name="Baskerville Old Face" size="15.0" />
+                           </font>
+                        </Button>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="170.0" layoutX="100.0" layoutY="194.0" opacity="0.17" stroke="BLACK" strokeType="INSIDE" width="387.0" />
+                        <Text layoutX="108.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Member's Information">
+                           <font>
+                              <Font name="Goudy Old Style" size="17.0" />
+                           </font>
+                        </Text>
+                        <Line endX="360.0" layoutX="122.0" layoutY="213.0" startX="-12.0" />
+                        <TextArea layoutX="107.0" layoutY="220.0" opacity="0.45" prefHeight="138.0" prefWidth="372.0">
+                           <font>
+                              <Font name="Bauhaus 93" size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="LOG">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="373.0" fitWidth="600.0" layoutX="-2.0" layoutY="131.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <image>
+                              <Image url="@../../../../../Desktop/Acenet/images/imageedit_2_5893443141.jpg" />
+                           </image>
+                        </ImageView>
+                        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="107.0" text="Show Log" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="303.0" layoutX="18.0" layoutY="49.0" opacity="0.15" stroke="#4d0202" strokeType="INSIDE" width="544.0" />
+                        <Line endX="544.0" endY="23.0" layoutX="18.0" layoutY="49.0" startX="4.0" startY="23.0" />
+                        <Line endX="21.0" endY="14.5" layoutX="292.0" layoutY="58.0" startX="21.0" startY="294.0" />
+                        <Text layoutX="132.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+                           <font>
+                              <Font name="Goudy Old Style" size="19.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="360.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attendance Status">
+                           <font>
+                              <Font name="Goudy Old Style" size="17.0" />
+                           </font>
+                        </Text>
+                        <TextArea accessibleRole="CONTEXT_MENU" layoutX="25.0" layoutY="77.0" opacity="0.45" prefHeight="270.0" prefWidth="281.0">
+                           <font>
+                              <Font name="Bauhaus 93" size="16.0" />
+                           </font>
+                        </TextArea>
+                        <TextArea layoutX="318.0" layoutY="77.0" opacity="0.45" prefHeight="270.0" prefWidth="235.0">
+                           <font>
+                              <Font name="Bauhaus 93" size="16.0" />
+                           </font>
+                        </TextArea>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
